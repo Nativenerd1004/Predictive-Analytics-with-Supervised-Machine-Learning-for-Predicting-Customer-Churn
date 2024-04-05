@@ -66,7 +66,8 @@ This project aims to use predictive analytics with supervised machine learning t
 
 ## Challenges Faced
 - Had issue locating missing values.
-- Had issues plotting my heatmap and confusion matrix, fixed this by upgrading seaborn 
+- Had issues plotting my heatmap and confusion matrix, fixed this by upgrading seaborn
+- Had a challenge in predicting with XGB Boost then figured feature names with []<> were not capable for such machine learning training.  
 
 
 
