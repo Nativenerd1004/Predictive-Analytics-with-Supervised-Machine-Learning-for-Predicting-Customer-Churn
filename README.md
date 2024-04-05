@@ -123,18 +123,16 @@ Visualize the missing data
 ```diff 
 +td.describe(include=['object','bool'])
 ```
-![Categorical Statistics](https://github.com/Nativenerd1004/Predictive-Analytics-with-Supervised-Machine-Learning-for-Predicting-Employee-Attrition/assets/149740069/93ffeb2e-3ddf-4cea-bffc-40595e200b54)
 
 #### dropping off some redundant features
 ```diff 
-+td.drop(['Over18','StandardHours','EmployeeCount','EmployeeNumber'],axis=1,inplace=True)
++data.dropna(inplace=True)
 ```
-![Dropping Off Syntax](https://github.com/Nativenerd1004/Predictive-Analytics-with-Supervised-Machine-Learning-for-Predicting-Employee-Attrition/assets/149740069/2b5663a8-3ff9-4f55-a187-f3bc57f13974)
 
 ```diff 
 !Duplicating the Data
++data3 = data2.copy()
 ```
-![Copy-Of-Data-Set 2024-02-28 at 2 15 11 AM](https://github.com/Nativenerd1004/Predictive-Analytics-with-Supervised-Machine-Learning-for-Predicting-Employee-Attrition/assets/149740069/fafa59e4-403c-49b4-b5f7-8f7fde795460)
 
 #### identifying key features from the data set
 ```diff 
@@ -143,10 +141,10 @@ Visualize the missing data
 
 #### fit the model
 ```diff 
--model.fit(td_scaled, target)
+-model.fit(data4_scaled, target)
 -importances = model.feature_importances_
 -sort_imp = np.argsort(importances)
--names = list(td2.columns)
+-names = list(data4.columns)
 ```
 
 #### plotting a feature importance chart
@@ -157,17 +155,15 @@ Visualize the missing data
 +plt.title("Feature Importance")
 +plt.xlabel("relative importance measure")
 ```
-![Feature Importance Graph](https://github.com/Nativenerd1004/Predictive-Analytics-with-Supervised-Machine-Learning-for-Predicting-Employee-Attrition/assets/149740069/dd4ee443-ada2-4385-ba5f-c17670ed7cf5)
 
 #### split the DataFrame into train and test datasets
 ```diff
 !from sklearn.model_selection import train_test_split
 ```
 ```diff
-!x_train, x_test, y_train, y_val = train_test_split(td_scaled, target, train_size=0.8, random_state=1)
+!x_train, x_test, y_train, y_val = train_test_split(data4_scaled, target, train_size=0.8, random_state=1)
 !x_train # This is the data we will be training from
 ```
-![Split Data Train and Test](https://github.com/Nativenerd1004/Predictive-Analytics-with-Supervised-Machine-Learning-for-Predicting-Employee-Attrition/assets/149740069/f08b6a06-4d7e-4442-b046-3192a849349a)
 
 ```diff 
 +x_test # This is the data we will be predicting from. 
@@ -190,29 +186,10 @@ Visualize the missing data
 @@log_pred = log_reg.predict(x_test)@@
 @@log_pred@@
 ```
-![Machine Learning Computation](https://github.com/Nativenerd1004/Predictive-Analytics-with-Supervised-Machine-Learning-for-Predicting-Employee-Attrition/assets/149740069/fa43ad37-9d0e-49f0-8536-a75015d62398)
-
 
 #### import evaluation metrics
 
 from sklearn.metrics import classification_report, confusion_matrix
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 #### Situation: 
@@ -221,11 +198,11 @@ from sklearn.metrics import classification_report, confusion_matrix
 ```
 #### Task: 
 ```diff 
-- We address missing values, outliers, and inconsistencies within the employee data.
+- We address missing values, and inconsistencies within the customer data.
 ```
 #### Action: 
 ```diff 
-- Techniques like imputation, removal, or scaling may be employed to ensure data quality.
+- Techniques like imputation, removal, or scaling was employed to ensure data quality.
 ```
 #### Result: 
 ```diff 
