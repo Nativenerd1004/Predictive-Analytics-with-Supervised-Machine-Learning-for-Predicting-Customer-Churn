@@ -29,11 +29,11 @@ This project aims to use predictive analytics with supervised machine learning t
 ```
 #### Task: 
 ```diff 
-- To develope a machine learning algorithm to identify employees at high risk of leaving the company.
+- To develope a machine learning algorithm to identify customers at high risk of leaving the business.
 ```
 #### Action: 
 ```diff 
-- This project implements a Gradient Boosting Classifier model, trained on employee data, to predict employee attrition.
+- This project implements a logistics regression model, trained on customer data, to predict customer churn.
 ```
 ![GradientBoostingClassifier](https://github.com/Nativenerd1004/Predictive-Analytics-with-Supervised-Machine-Learning-for-Predicting-Employee-Attrition/assets/149740069/6679bb27-d024-45d9-8264-7474f38e428d)
 
