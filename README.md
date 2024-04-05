@@ -210,13 +210,9 @@ from sklearn.metrics import classification_report, confusion_matrix
 ```
 ```diff 
 !scaler = MinMaxScaler()
-!td_scaled = pd.DataFrame(scaler.fit_transform(td2), columns = td2.columns)
-!td_scaled
+!data4_scaled = pd.DataFrame(scaler.fit_transform(data4), columns = data4.columns)
+!data4_scaled
 ```
-
-![Encoding, Segmentation, Scaling ](https://github.com/Nativenerd1004/Predictive-Analytics-with-Supervised-Machine-Learning-for-Predicting-Employee-Attrition/assets/149740069/3e68baf8-e9db-42cc-b607-c73d090018f4)
-![Scaler](https://github.com/Nativenerd1004/Predictive-Analytics-with-Supervised-Machine-Learning-for-Predicting-Employee-Attrition/assets/149740069/79e02c36-5088-4524-a7f2-3313f60835c9)
-
 
 [Table of Content](#table-of-content)
 
@@ -228,7 +224,7 @@ from sklearn.metrics import classification_report, confusion_matrix
 ```
 #### Task: 
 ```diff 
-- We utilize metrics like accuracy, precision, recall, and F1-score to evaluate the model's ability to predict attrition.
+- We utilize metrics like accuracy, precision, recall, and F1-score to evaluate the model's ability to predict churn.
 ```
 #### Action: 
 ```diff 
@@ -243,25 +239,25 @@ from sklearn.metrics import classification_report, confusion_matrix
 ## Actionable Insights
 #### Situation: 
 ```diff 
-- The model's predictions can inform strategic HR decisions.
+- The model's predictions can inform strategic Sales and Marketing decisions.
 ```
 #### Task: 
 ```diff 
-- Identify employees at high risk and implement targeted interventions to address their concerns and improve retention.
+- Identify customers at high risk and implement targeted interventions to address their concerns and improve retention.
 ```
 #### Action: 
 ```diff 
-- This may involve providing career development opportunities, addressing work-life balance issues, or offering competitive compensation packages.
+- This may involve providing plans that fit customer needs based on their preferred services etc 
 ```
 #### Result: 
 ```diff 
-- Actionable insights derived from the model can contribute to improved employee satisfaction and reduced turnover costs.
+- Actionable insights derived from the model can contribute to improved customer satisfaction and reduced turnover costs.
 ```
 [Table of Content](#table-of-content)
 
 # Conclusion
 ```diff 
-- This machine learning algorithm leveraging a Gradient Boosting Classifier offers valuable insights into employee attrition. By effectively combining data preparation, model training, and evaluation, this project demonstrates the potential of machine learning to address real-world business challenges in the HR domain.
+- This machine learning algorithm leveraging Logistics Regression offers valuable insights into employee churn. By effectively combining data preparation, model training, and evaluation, this project demonstrates the potential of machine learning to address real-world business challenges in the Sales and Marketing Domain.
 ```
 ```diff 
 - Note: This documentation serves as a general framework and might need adjustments based on the specific details and functionalities of your implemented algorithm.
