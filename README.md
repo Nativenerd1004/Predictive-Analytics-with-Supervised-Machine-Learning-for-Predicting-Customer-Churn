@@ -74,11 +74,11 @@ This project aims to use predictive analytics with supervised machine learning t
 
 #### Situation: 
 ```diff 
-- Reliable employee data is crucial for model training.
+- Reliable customer data is crucial for model training.
 ```
 #### Task: 
 ```diff 
-- I leveraged a dataset containing employee information, potentially including demographics, job roles, performance metrics, etc.
+- I leveraged a dataset containing customer information, potentially including services they are subscribed to, how long they've been with the business, the type of customers based on tenure and service engagement, etc.
 ```
 #### Action: 
 ```diff 
