@@ -69,7 +69,7 @@ This project aims to use predictive analytics with supervised machine learning t
 ```diff
 + Importing Data into python
 ```
-![Data Import](https://github.com/Nativenerd1004/Predictive-Analytics-with-Supervised-Machine-Learning-for-Predicting-Employee-Attrition/assets/149740069/00bed890-e722-4339-9c6c-258fb9f14e7a)
+![Data Importation](https://github.com/Nativenerd1004/Predictive-Analytics-with-Supervised-Machine-Learning-for-Predicting-Customer-Churn/assets/149740069/f791854d-68c8-46ec-b1ff-1ac03658a2a8)
 
 
 #### Situation: 
