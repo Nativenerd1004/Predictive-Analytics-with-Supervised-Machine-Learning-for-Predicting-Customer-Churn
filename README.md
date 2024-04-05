@@ -3,7 +3,7 @@
 ![image](https://github.com/Nativenerd1004/Predictive-Analytics-with-Supervised-Machine-Learning-for-Predicting-Employee-Attrition/assets/149740069/23871480-e126-40bf-baff-12b578ee98a4)
 
 
-This project aims to use predictive analytics with supervised machine learning techniques to forecast employee attrition in a company. By analyzing historical data on employee turnover, the goal is to build a model that can accurately predict which employees are at risk of leaving the organization. 
+This project aims to use predictive analytics with supervised machine learning techniques to forecast customer churn in a company. By analyzing historical data on customer behaviours, the goal is to build a model that can accurately predict which customer are at risk of leaving the business. 
 
 ![wired-lineal-153-bar-chart](https://github.com/Nativenerd1004/Ecommerce-Sales-Analysis-Dashbaord/assets/149740069/e3c4b09a-97f0-48ee-aae4-9f8bafd9f848)
 
@@ -25,7 +25,7 @@ This project aims to use predictive analytics with supervised machine learning t
 #### Situation:
 
 ```diff 
-- Businesses face challenges retaining valuable employees, and predicting potential attrition can aid in mitigating this issue.
+- Businesses face challenges retaining valuable customers, and predicting potential churn can aid in mitigating this issue.
 ```
 #### Task: 
 ```diff 
