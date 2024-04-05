@@ -116,7 +116,7 @@ Visualize the missing data
 + plt.figure(figsize = (10,3))
 + sns.heatmap(td.isnull(), cbar=True, cmap="magma")
 ```
-![Missing Values](https://github.com/Nativenerd1004/Predictive-Analytics-with-Supervised-Machine-Learning-for-Predicting-Employee-Attrition/assets/149740069/e5e0e01d-82e5-40d8-ba9a-540175b50bb5)
+![Missing Values](https://github.com/Nativenerd1004/Predictive-Analytics-with-Supervised-Machine-Learning-for-Predicting-Customer-Churn/assets/149740069/b0fb035f-fd51-4c17-853c-84615d176e88)
 
 
 #### Statistical Analysis on categorical Data
