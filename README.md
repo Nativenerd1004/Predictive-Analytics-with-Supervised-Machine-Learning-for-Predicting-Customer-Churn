@@ -35,12 +35,10 @@ This project aims to use predictive analytics with supervised machine learning t
 ```diff 
 - This project implements a logistics regression model, trained on customer data, to predict customer churn.
 ```
-![GradientBoostingClassifier](https://github.com/Nativenerd1004/Predictive-Analytics-with-Supervised-Machine-Learning-for-Predicting-Employee-Attrition/assets/149740069/6679bb27-d024-45d9-8264-7474f38e428d)
-
 
 #### Result: 
 ```diff 
-- The resulting model provides insights into employee risk, enabling proactive measures to improve retention.
+- The resulting model provides insights into customer risk, enabling proactive measures to improve retention.
 ```
 [Table of Content](#table-of-content)
 
@@ -49,15 +47,15 @@ This project aims to use predictive analytics with supervised machine learning t
 ## Project Objectives
 #### Situation: 
 ```diff 
-- The primary objective is to effectively predict employee attrition.
+- The primary objective is to effectively predict customer churn.
 ```
 #### Task: 
 ```diff 
-- The company aims to achieve high accuracy in identifying employees at risk of leaving.
+- The company aims to achieve high accuracy in identifying customer at risk of leaving.
 ```
 #### Action:
 ```diff 
-- I utilized the Gradient Boosting Classifier, known for its efficiency and handling of complex relationships in data.
+- I utilized the Logistics Regression and 8 other supervised machine learning techniques, known for its efficiency and handling of complex relationships in data.
 ```
 #### Result: 
 ```diff 
