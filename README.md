@@ -98,7 +98,7 @@ This project aims to use predictive analytics with supervised machine learning t
 ```diff 
 + td.info()
 ```
-![Data Overview](https://github.com/Nativenerd1004/Predictive-Analytics-with-Supervised-Machine-Learning-for-Predicting-Employee-Attrition/assets/149740069/1b25632d-0703-41d6-8cc1-a7bd33017021)
+![Data Information](https://github.com/Nativenerd1004/Predictive-Analytics-with-Supervised-Machine-Learning-for-Predicting-Customer-Churn/assets/149740069/9c85054d-4d8d-4eae-bb48-55d282990abf)
 
 #### Statistical Analysis on Numerical Data
 ```diff 
