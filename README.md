@@ -64,6 +64,12 @@ This project aims to use predictive analytics with supervised machine learning t
 [Table of Content](#table-of-content)
 
 
+## Challenges Faced
+- Had issue locating missing values.
+- Had issues plotting my heatmap and confusion matrix, fixed this by upgrading seaborn 
+
+
+
 ## Data Sources
 
 ```diff
