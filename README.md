@@ -82,7 +82,7 @@ This project aims to use predictive analytics with supervised machine learning t
 ```
 #### Action: 
 ```diff 
-- Collaboration with HR or relevant departments ensures data accuracy and relevance.
+- Collaborated with the sales team to ensure data accuracy and relevance.
 ```
 #### Result: 
 ```diff 
